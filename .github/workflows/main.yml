@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2`
-      - uses: ncipollo/release-action@v1
 
       - name: Zip Files
         working-directory: ./
@@ -22,6 +21,7 @@ jobs:
         run: echo "::set-output name=version::$(node ./.github/workflows/get-version.js)"
 
       - name: Create Release
+        uses: ncipollo/release-action@v1
         id: create-release
         with:
           allowUpdates: true,
