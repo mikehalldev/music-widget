@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2`
+      - uses: ncipollo/release-action@v1
 
       - name: Zip Files
         working-directory: ./
@@ -22,7 +23,6 @@ jobs:
 
       - name: Create Release
         id: create-release
-        uses: ncipollo/release-action@v1
         with:
           allowUpdates: true,
           name: Release ${{ steps.get-version.outputs.version }}
