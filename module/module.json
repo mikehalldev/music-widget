@@ -1,13 +1,13 @@
 {
-    "name": "mvp",
-    "title": "mvp",
+    "name": "music-widget",
+    "title": "music-widget",
     "description": "A simple module.",
     "author": "MikeyOnTheBoard",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion": "0.7.9",
     "scripts": ["../main.js"],
     "url": "https://github.com/mikehalldev/music_widget",
-    "manifest": "https://github.com/mikehalldev/music-widget/download/0.0.5/module.json",
-    "download": "https://github.com/mikehalldev/music-widget/download/0.0.5/module.zip"
+    "manifest": "https://github.com/mikehalldev/music-widget/download/0.0.6/module.json",
+    "download": "https://github.com/mikehalldev/music-widget/download/0.0.6/module.zip"
 }
