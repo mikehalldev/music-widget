@@ -3,11 +3,11 @@
     "title": "mvp",
     "description": "A simple module.",
     "author": "MikeyOnTheBoard",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion": "0.7.9",
     "scripts": ["../main.js"],
     "url": "https://github.com/mikehalldev/music_widget",
-    "manifest": "https://github.com/mikehalldev/music-widget/download/0.0.2/module.json",
-    "download": "https://github.com/mikehalldev/music-widget/download/0.0.2/module.zip"
+    "manifest": "https://github.com/mikehalldev/music-widget/download/0.0.4/module.json",
+    "download": "https://github.com/mikehalldev/music-widget/download/0.0.4/module.zip"
 }
