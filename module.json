@@ -3,11 +3,11 @@
     "title": "music-widget",
     "description": "A simple module.",
     "author": "MikeyOnTheBoard",
-    "version": "0.0.9",
+    "version": "0.0.10",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion": "0.7.9",
     "scripts": ["main.js"],
     "url": "https://github.com/mikehalldev/music_widget",
-    "manifest": "https://github.com/mikehalldev/music-widget/download/0.0.9/module.json",
-    "download": "https://github.com/mikehalldev/music-widget/download/0.0.9/module.zip"
+    "manifest": "https://github.com/mikehalldev/music-widget/download/0.0.10/module.json",
+    "download": "https://github.com/mikehalldev/music-widget/download/0.0.10/module.zip"
 }
