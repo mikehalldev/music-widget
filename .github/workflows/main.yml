@@ -25,7 +25,7 @@ jobs:
         id: create-release
         with:
           allowUpdates: true,
-          name: Release ${{ steps.get-version.outputs.version }}
+          name: "Release ${{ steps.get-version.outputs.version }}"
           draft: false
           prerelease: false
           token: ${{ secrets.GITHUB_TOKEN }}
